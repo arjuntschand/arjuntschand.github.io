@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="201.127" height="74.308" viewBox="0 0 201.127 74.308">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03ffff"/>
+      <stop offset="1" stop-color="#2d8aea"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo_Wit" transform="translate(0.511 0.5)">
+    <path id="Logo" d="M140.352,73.308,150.88,23.528H131.309L136.254,0H200l-3.045,14.486a11.383,11.383,0,0,1-11.14,9.042H175.354L164.826,73.308Zm-51,0L104.837,0h24.474L113.829,73.308Zm-44.847,0L41.663,39.955,23.9,73.308H1.594L0,0H23.9L23.79,33.467l10.7-21.742L36.995,0H56.916l2.618,33.58L74.1,0h23.9L65.567,73.308Z" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

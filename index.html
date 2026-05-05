@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0e0f13" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://rsms.me/" crossorigin />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <script>
+      // Apply theme before paint to avoid a flash. Default = dark.
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch (_) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
+    <title>Arjun Tschand — Duke ECE + CS</title>
+    <meta
+      name="description"
+      content="Arjun Tschand. Duke ECE + CS, BS/MS '28. Applied ML, software engineering, and quantitative software. Bloomberg LP, Zavlanos Lab, Accenture."
+    />
+    <meta name="author" content="Arjun Tschand" />
+    <meta name="keywords" content="Arjun Tschand, Duke, ECE, Computer Science, Machine Learning, Software Engineer, Quant, Bloomberg, Zavlanos, GroupDRO, Portfolio" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Arjun Tschand — Duke ECE + CS" />
+    <meta
+      property="og:description"
+      content="Applied ML, software engineering, and quantitative software. Duke ECE + CS, BS/MS '28."
+    />
+    <meta property="og:url" content="https://arjuntschand.github.io/" />
+    <meta property="og:image" content="https://arjuntschand.github.io/images/arjun-headshot.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arjun Tschand — Duke ECE + CS" />
+    <meta
+      name="twitter:description"
+      content="Applied ML, software engineering, and quantitative software. Duke ECE + CS, BS/MS '28."
+    />
+    <meta name="twitter:image" content="https://arjuntschand.github.io/images/arjun-headshot.jpg" />
+  </head>
+  <body class="bg-white text-ink-900 antialiased dark:bg-ink-900 dark:text-ink-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
