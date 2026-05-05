@@ -17,7 +17,7 @@ export function Experience() {
         <SectionHeading
           eyebrow="02 — Experience"
           title="Where I’ve worked"
-          description="Engineering production systems at Bloomberg, conducting ML research at Duke, and joining Accenture in AI/ML."
+          description="Engineering production systems at Bloomberg, conducting ML research at Duke, and incoming at Accenture."
         />
 
         <motion.ol

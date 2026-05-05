@@ -60,7 +60,7 @@ export function Research() {
             <figure className="overflow-hidden rounded-xl border border-ink-200 bg-white shadow-sm dark:border-ink-700 dark:bg-ink-900/60">
               <img
                 src="/images/research-poster-2026.jpg"
-                alt="Arjun Tschand presenting GroupDRO research at Duke ECE Poster Session, Spring 2026"
+                alt="GroupDRO with Heterogeneous Feature Spaces research poster, Duke ECE Spring 2026"
                 loading="lazy"
                 decoding="async"
                 className="h-auto w-full object-cover"
@@ -136,7 +136,7 @@ export function Research() {
           </motion.div>
         </motion.div>
 
-        {/* 2x2 problem/approach/alignment/optimization grid */}
+        {/* 2x2 problem / approach / optimization / impact grid */}
         <motion.div
           variants={stagger(0.06)}
           initial="hidden"
