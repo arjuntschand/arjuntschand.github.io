@@ -111,7 +111,7 @@ export const EXPERIENCE: Experience[] = [
     logo: 'pec',
     stack: ['C#', '.NET', 'Visual Studio', 'WinForms'],
     highlights: [
-      'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention, sold to PEC clients.',
+      'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention.',
       'Implemented barcode-driven packing workflows, photo/video capture during pack-out, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails.',
     ],
     links: [
