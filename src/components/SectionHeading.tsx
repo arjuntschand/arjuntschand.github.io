@@ -5,16 +5,17 @@ type Props = {
   eyebrow: string;
   title: string;
   description?: string;
+  className?: string;
 };
 
-export function SectionHeading({ eyebrow, title, description }: Props) {
+export function SectionHeading({ eyebrow, title, description, className }: Props) {
   return (
     <motion.div
       variants={fadeUp}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: '-15% 0px' }}
-      className="mb-10 md:mb-14"
+      className={className ?? 'mb-10 md:mb-14'}
     >
       <div className="flex items-center gap-3">
         <span className="h-px w-8 bg-accent-600" aria-hidden />

@@ -110,8 +110,8 @@ export const HACKATHON_WINS: Project[] = [
     tags: ['Python', 'TensorFlow', 'C++'],
     bullets: ['Hackathon winner.'],
     links: [
-      { label: 'GitHub', href: 'https://github.com/arjuntschand/Eyeonics' },
       { label: 'Devpost', href: 'https://devpost.com/software/eyeonics' },
+      { label: 'GitHub', href: 'https://github.com/arjuntschand/Eyeonics' },
     ],
   },
   {

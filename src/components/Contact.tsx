@@ -8,14 +8,18 @@ export function Contact() {
   return (
     <section id="contact" className="relative py-20 sm:py-24">
       <div className="mx-auto max-w-4xl px-6 text-center">
-        <SectionHeading eyebrow="06 — Contact" title="Let’s build something." />
+        <SectionHeading
+          eyebrow="06 — Contact"
+          title="Let’s build something."
+          className="mb-[46px]"
+        />
 
         <motion.div
           variants={stagger(0.06)}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-10% 0px' }}
-          className="space-y-12"
+          className="space-y-[46px]"
         >
           <motion.div variants={fadeUp} className="flex flex-wrap items-center justify-center gap-3">
             <a
