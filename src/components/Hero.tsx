@@ -31,20 +31,9 @@ export function Hero() {
           animate="visible"
           className="max-w-4xl"
         >
-          <motion.div
-            variants={fadeUp}
-            className="inline-flex items-center gap-2 rounded-full border border-ink-200 bg-white/60 px-3 py-1 font-mono text-xs text-ink-600 backdrop-blur dark:border-ink-700 dark:bg-ink-800/60 dark:text-ink-300"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
-            </span>
-            Open to Summer 2027 internships
-          </motion.div>
-
           <motion.h1
             variants={fadeUp}
-            className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-ink-900 dark:text-white sm:text-6xl lg:text-7xl"
+            className="text-4xl font-semibold leading-[1.05] tracking-tight text-ink-900 dark:text-white sm:text-6xl lg:text-7xl"
           >
             Arjun Tschand.
             <span className="block bg-gradient-to-r from-accent-500 to-sky-500 bg-clip-text text-transparent opacity-80 dark:opacity-90">
