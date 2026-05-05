@@ -112,7 +112,7 @@ export const EXPERIENCE: Experience[] = [
     stack: ['C#', '.NET', 'Visual Studio', 'WinForms'],
     highlights: [
       'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention.',
-      'Implemented barcode-driven packing workflows, photo/video capture during pack-out, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails.',
+      'Implemented barcode-driven order fulfillment workflows, photo/video capture during packing, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails.',
     ],
     links: [
       { label: 'Product page', href: 'https://www.voicesaver.com/e-commerce-solutions.html' },
