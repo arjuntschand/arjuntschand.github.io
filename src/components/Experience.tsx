@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { X } from 'lucide-react';
+import { ExternalLink, X } from 'lucide-react';
 import { EXPERIENCE } from '../data/experience';
 import { fadeUp, stagger } from '../lib/motion';
 import { SectionHeading } from './SectionHeading';
@@ -78,9 +78,21 @@ export function Experience() {
                       ))}
                     </ul>
 
-                    {exp.stack && (
-                      <div className="mt-4 flex flex-wrap gap-1.5">
-                        {exp.stack.map((s) => (
+                    {(exp.stack || (exp.links && exp.links.length > 0)) && (
+                      <div className="mt-4 flex flex-wrap items-center gap-1.5">
+                        {exp.links?.map((l) => (
+                          <a
+                            key={l.href}
+                            href={l.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 rounded-md border border-ink-200 px-2 py-0.5 font-mono text-[11px] text-ink-700 transition-colors hover:border-accent-400 hover:text-ink-900 dark:border-ink-700 dark:text-ink-200 dark:hover:border-accent-600 dark:hover:text-white"
+                          >
+                            <ExternalLink size={11} />
+                            {l.label}
+                          </a>
+                        ))}
+                        {exp.stack?.map((s) => (
                           <span
                             key={s}
                             className="rounded-md bg-ink-100 px-2 py-0.5 font-mono text-[11px] text-ink-700 dark:bg-ink-700/60 dark:text-ink-200"

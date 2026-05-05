@@ -12,6 +12,7 @@ export type Experience = {
   upcoming?: boolean;
   logo: LogoKey;
   image?: { src: string; alt: string; caption?: string };
+  links?: { label: string; href: string }[];
 };
 
 export const EXPERIENCE: Experience[] = [
@@ -112,6 +113,9 @@ export const EXPERIENCE: Experience[] = [
     highlights: [
       'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention, sold to PEC clients.',
       'Implemented barcode-driven packing workflows, photo/video capture during pack-out, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails.',
+    ],
+    links: [
+      { label: 'Product page', href: 'https://www.voicesaver.com/e-commerce-solutions.html' },
     ],
   },
 ];
