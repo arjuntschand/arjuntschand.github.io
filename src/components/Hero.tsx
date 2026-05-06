@@ -101,7 +101,7 @@ export function Hero() {
           >
             <span>Duke ECE + CS</span>
             <span aria-hidden className="hidden h-px w-6 bg-ink-200 dark:bg-ink-700 sm:block" />
-            <span>Bloomberg L.P.</span>
+            <span>Bloomberg LP</span>
             <span aria-hidden className="hidden h-px w-6 bg-ink-200 dark:bg-ink-700 sm:block" />
             <span>Zavlanos Lab</span>
             <span aria-hidden className="hidden h-px w-6 bg-ink-200 dark:bg-ink-700 sm:block" />

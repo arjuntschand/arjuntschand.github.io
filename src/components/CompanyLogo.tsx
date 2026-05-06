@@ -17,7 +17,7 @@ export function CompanyLogo({ company, size = 40, className }: Props) {
     case 'bloomberg':
       return (
         <span
-          aria-label="Bloomberg L.P."
+          aria-label="Bloomberg LP"
           role="img"
           className={`inline-flex shrink-0 items-center justify-center rounded-md text-white shadow-sm ${className ?? ''}`}
           style={{ width: dim, height: dim, background: '#000000' }}

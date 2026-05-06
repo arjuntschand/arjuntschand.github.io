@@ -7,7 +7,7 @@ const STATS = [
   { label: 'Major', value: 'ECE + CS' },
   { label: 'Grad', value: 'May 2028' },
   { label: 'Degree', value: 'BS / MS (3+1)' },
-  { label: 'GPA', value: '3.81 / 4.00' },
+  { label: 'GPA', value: '3.83 / 4.00' },
 ];
 
 export function About() {
