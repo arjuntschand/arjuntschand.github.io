@@ -30,7 +30,7 @@ export const COURSEWORK = [
   'Deep Learning (Graduate)',
   'Robust Machine Learning',
   'Natural Language Processing',
-  'Data Structures & Algorithms',
+  'Data Structures and Algorithms',
   'Computer Architecture',
   'Signals and Systems',
   'Probability',
