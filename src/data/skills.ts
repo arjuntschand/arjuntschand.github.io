@@ -32,6 +32,7 @@ export const COURSEWORK = [
   'Natural Language Processing',
   'Data Structures & Algorithms',
   'Computer Architecture',
+  'Signals and Systems',
   'Probability',
   'Linear Algebra',
   'Multivariable Calculus',
