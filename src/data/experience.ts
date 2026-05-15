@@ -1,4 +1,4 @@
-export type LogoKey = 'bloomberg' | 'duke' | 'accenture' | 'wit' | 'pec';
+export type LogoKey = 'bloomberg' | 'duke' | 'accenture' | 'wit';
 
 export type Experience = {
   company: string;
@@ -100,22 +100,6 @@ export const EXPERIENCE: Experience[] = [
     highlights: [
       'Built a cross-platform Phaser.js Whack-a-Mole fan-engagement game for the NFL Baltimore Ravens, reaching 635,380 in-stadium fans during the 2023–24 season',
       'Designed a multi-scene JavaScript game architecture with event-driven gameplay logic (randomized targets, timers, score tracking, animated feedback) and responsive layouts across iOS, Android, and large in-stadium displays',
-    ],
-  },
-  {
-    company: 'Parwan Electronics Corporation',
-    role: 'Software Engineer Intern',
-    location: 'Aberdeen, NJ',
-    start: 'Jun 2022',
-    end: 'Aug 2022',
-    logo: 'pec',
-    stack: ['C#', '.NET', 'Visual Studio', 'WinForms'],
-    highlights: [
-      'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention',
-      'Implemented barcode-driven order fulfillment workflows, photo/video capture during packing, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails',
-    ],
-    links: [
-      { label: 'Product page', href: 'https://www.voicesaver.com/e-commerce-solutions.html' },
     ],
   },
 ];

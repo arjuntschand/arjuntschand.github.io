@@ -1,4 +1,4 @@
-type LogoKey = 'bloomberg' | 'duke' | 'accenture' | 'wit' | 'pec';
+type LogoKey = 'bloomberg' | 'duke' | 'accenture' | 'wit';
 
 type Props = {
   company: LogoKey;
@@ -117,23 +117,6 @@ export function CompanyLogo({ company, size = 40, className }: Props) {
             alt=""
             aria-hidden="true"
             className="h-[70%] w-[70%] object-contain"
-          />
-        </span>
-      );
-
-    case 'pec':
-      return (
-        <span
-          aria-label="Parwan Electronics Corporation"
-          role="img"
-          className={`inline-flex shrink-0 items-center justify-center overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-ink-200 dark:ring-ink-700 ${className ?? ''}`}
-          style={{ width: dim, height: dim }}
-        >
-          <img
-            src="/images/pec-logo.png"
-            alt=""
-            aria-hidden="true"
-            className="h-[80%] w-[80%] object-contain"
           />
         </span>
       );
