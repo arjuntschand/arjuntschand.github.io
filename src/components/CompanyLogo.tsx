@@ -107,7 +107,7 @@ export function CompanyLogo({ company, size = 40, className }: Props) {
     case 'wit':
       return (
         <span
-          aria-label="WiT Sports"
+          aria-label="WIT"
           role="img"
           className={`inline-flex shrink-0 items-center justify-center overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-ink-200 dark:ring-ink-700 ${className ?? ''}`}
           style={{ width: dim, height: dim }}

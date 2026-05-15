@@ -90,7 +90,7 @@ export const EXPERIENCE: Experience[] = [
     },
   },
   {
-    company: 'WiT Sports',
+    company: 'WIT',
     role: 'Software Engineer Intern',
     location: 'Aberdeen, NJ',
     start: 'Jun 2023',
