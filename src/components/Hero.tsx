@@ -105,7 +105,7 @@ export function Hero() {
             <span aria-hidden className="hidden h-px w-6 bg-ink-200 dark:bg-ink-700 sm:block" />
             <span>Zavlanos Lab</span>
             <span aria-hidden className="hidden h-px w-6 bg-ink-200 dark:bg-ink-700 sm:block" />
-            <span>Accenture</span>
+            <span>SoFi</span>
           </motion.div>
         </motion.div>
       </div>

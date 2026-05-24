@@ -8,7 +8,7 @@ export const SITE = {
   headline:
     'ML, systems, and quant software engineering. Duke ECE + CS, BS/MS ’28.',
   subheadline:
-    'Two-time SWE intern at Bloomberg LP, ML researcher at the Zavlanos Lab, and incoming at Accenture for Summer 2026.',
+    'Two-time SWE intern at Bloomberg LP, ML researcher at the Zavlanos Lab, and incoming at SoFi for Summer 2026.',
   location: 'Durham, NC',
   emailPrimary: 'arjuntschand1@gmail.com',
   emailAcademic: 'arjun.tschand@duke.edu',

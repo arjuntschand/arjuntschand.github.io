@@ -1,4 +1,4 @@
-export type LogoKey = 'bloomberg' | 'duke' | 'accenture' | 'wit';
+export type LogoKey = 'bloomberg' | 'duke' | 'sofi' | 'wit' | 'pec';
 
 export type Experience = {
   company: string;
@@ -17,15 +17,15 @@ export type Experience = {
 
 export const EXPERIENCE: Experience[] = [
   {
-    company: 'Accenture',
-    role: 'Incoming Technology Summer Analyst (AI/ML)',
+    company: 'SoFi',
+    role: 'Incoming Data Scientist Intern',
     location: 'San Francisco, CA',
     start: 'Jun 2026',
     end: 'Aug 2026',
     upcoming: true,
-    logo: 'accenture',
+    logo: 'sofi',
     highlights: [
-      'Incoming AI/ML summer analyst role focused on applied machine learning and enterprise technology',
+      'Data Science and AI Team, Money',
     ],
   },
   {
@@ -58,7 +58,7 @@ export const EXPERIENCE: Experience[] = [
     logo: 'bloomberg',
     stack: ['Python', 'FastAPI', 'LangGraph', 'React', 'TypeScript'],
     highlights: [
-      'Shipped an LLM-based diagnostic system on the Specialty Assets team that automates post-trade issue resolution for fixed-income trade allocations, reducing resolution time by 85%',
+      'Developed a Large Language Model (LLM)-powered diagnostic system to automate post-trade issue resolution for fixed income trade allocations, reducing resolution time by 85% on the Sell Side Specialty Assets Team',
       'Architected a Python + FastAPI backend with LangGraph agents querying 1,200+ trade audit logs per request and Bloomberg-hosted LLMs to identify pipeline issues and recommend fixes',
       'Built a React + TypeScript chatbot UI with conversational memory and enterprise SSO',
       'Implemented agent observability, structured logging, and offline evaluation to monitor LLM response quality and end-to-end system reliability',
@@ -81,7 +81,7 @@ export const EXPERIENCE: Experience[] = [
       'Developed observability tooling for Bloomberg Terminal equity index workflows on the Index Reference Data team',
       'Built real-time dashboards over equity index usage metrics serving 20,000+ daily users, used to monitor a multi-quarter migration',
       'Authored flexible Grafana and Humio queries powering telemetry across two internal data systems',
-      'Drove adoption of the new EQIX workflow by 625+ engineers via dashboards highlighting legacy-function usage',
+      'Drove adoption of the new EQIX workflow for 625+ engineers by highlighting legacy-function usage in dashboards',
     ],
     image: {
       src: '/images/bloomberg-2024.jpg',
@@ -100,6 +100,22 @@ export const EXPERIENCE: Experience[] = [
     highlights: [
       'Built a cross-platform Phaser.js Whack-a-Mole fan-engagement game for the NFL Baltimore Ravens, reaching 635,380 in-stadium fans during the 2023–24 season',
       'Designed a multi-scene JavaScript game architecture with event-driven gameplay logic (randomized targets, timers, score tracking, animated feedback) and responsive layouts across iOS, Android, and large in-stadium displays',
+    ],
+  },
+  {
+    company: 'Parwan Electronics Corporation',
+    role: 'Software Engineer Intern',
+    location: 'Aberdeen, NJ',
+    start: 'Jun 2022',
+    end: 'Aug 2022',
+    logo: 'pec',
+    stack: ['C#', '.NET', 'Visual Studio', 'WinForms'],
+    highlights: [
+      'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention',
+      'Implemented barcode-driven order fulfillment workflows, photo/video capture during packing, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails',
+    ],
+    links: [
+      { label: 'Product page', href: 'https://www.voicesaver.com/e-commerce-solutions.html' },
     ],
   },
 ];
