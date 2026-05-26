@@ -18,14 +18,14 @@ export type Experience = {
 export const EXPERIENCE: Experience[] = [
   {
     company: 'SoFi',
-    role: 'Incoming Data Scientist Intern',
+    role: 'Incoming Data Science and AI Intern',
     location: 'San Francisco, CA',
     start: 'Jun 2026',
     end: 'Aug 2026',
     upcoming: true,
     logo: 'sofi',
     highlights: [
-      'Data Science and AI Team, Money',
+      'Summer 2026 | SoFi Money',
     ],
   },
   {
