@@ -18,14 +18,17 @@ export type Experience = {
 export const EXPERIENCE: Experience[] = [
   {
     company: 'SoFi',
-    role: 'Incoming Data Science and AI Intern',
+    role: 'Data Science and AI Intern',
     location: 'San Francisco, CA',
     start: 'Jun 2026',
     end: 'Aug 2026',
-    upcoming: true,
     logo: 'sofi',
+    stack: ['Python', 'SQL', 'Snowflake', 'scikit-learn', 'Pandas'],
     highlights: [
-      'Summer 2026 | SoFi Money',
+      "Developed a machine learning personalization system for SoFi Money's new user activation tracker, replacing a static onboarding checklist with per-user recommended actions optimized for customer lifetime value (LTV)",
+      'Engineered a feature dataset of 1.8 million records from 7 SQL data tables across 4 Snowflake databases spanning transaction activity, product holdings, and demographic attributes, distilled into 33 model-ready features',
+      'Trained 15 scikit-learn gradient boosting models predicting product adoption probability (avg AUC 0.86) and 15 propensity score matching models isolating LTV lift (avg SMD 0.06), combining to rank actions by expected value (EV) per user',
+      'Launched a production A/B test with the personalized activation tracker, currently live for ~6,000 new users daily',
     ],
   },
   {
@@ -76,7 +79,7 @@ export const EXPERIENCE: Experience[] = [
     start: 'Jun 2024',
     end: 'Aug 2024',
     logo: 'bloomberg',
-    stack: ['Python', 'Grafana', 'Humio'],
+    stack: ['Grafana', 'Humio', 'Python', 'SQL'],
     highlights: [
       'Developed observability tooling for Bloomberg Terminal equity index workflows on the Index Reference Data team',
       'Built real-time dashboards over equity index usage metrics serving 20,000+ daily users, used to monitor a multi-quarter migration',
@@ -111,7 +114,7 @@ export const EXPERIENCE: Experience[] = [
     logo: 'pec',
     stack: ['C#', '.NET', 'Visual Studio', 'WinForms'],
     highlights: [
-      'Built OrderSaver™, a commercial Visual C# / .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention',
+      'Built OrderSaver™, a commercial Visual C# and .NET desktop application for e-commerce order verification, shipping verification, and fraud prevention',
       'Implemented barcode-driven order fulfillment workflows, photo/video capture during packing, and integrations with e-commerce platforms (e.g. SellerCloud) for automated order audit trails',
     ],
     links: [

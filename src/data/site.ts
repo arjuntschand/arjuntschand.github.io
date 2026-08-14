@@ -4,11 +4,11 @@ export const RESUME_URL = '/resume.pdf';
 
 export const SITE = {
   name: 'Arjun Tschand',
-  role: 'Duke ECE + CS, BS/MS ’28',
+  role: 'Duke ECE + CS ’27',
   headline:
-    'ML, systems, and quant software engineering. Duke ECE + CS, BS/MS ’28.',
+    'ML, systems, and quant software engineering. Duke ECE + CS ’27.',
   subheadline:
-    'Two-time SWE intern at Bloomberg LP, ML researcher at the Zavlanos Lab, and incoming at SoFi for Summer 2026.',
+    'Two-time SWE intern at Bloomberg LP, data science and AI intern at SoFi, and ML researcher at the Zavlanos Lab.',
   location: 'Durham, NC',
   emailPrimary: 'arjuntschand1@gmail.com',
   emailAcademic: 'arjun.tschand@duke.edu',

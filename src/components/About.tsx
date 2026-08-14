@@ -5,8 +5,8 @@ import { COURSEWORK } from '../data/skills';
 
 const STATS = [
   { label: 'Major', value: 'ECE + CS' },
-  { label: 'Grad', value: 'May 2028' },
-  { label: 'Degree', value: 'BS / MS (3+1)' },
+  { label: 'Grad', value: 'May 2027' },
+  { label: 'Degree', value: 'BSE' },
   { label: 'GPA', value: '3.83 / 4.00' },
 ];
 
@@ -30,11 +30,12 @@ export function About() {
             >
               I’m an undergraduate at{' '}
               <span className="font-medium text-ink-900 dark:text-white">Duke University</span>{' '}
-              studying Electrical and Computer Engineering and Computer Science, on an
-              accelerated BS/MS 3+1 track with an{' '}
-              <span className="font-medium text-ink-900 dark:text-white">M.S. in ECE</span>. My
-              work sits at the intersection of applied machine learning and software systems
-              engineering.
+              studying{' '}
+              <span className="font-medium text-ink-900 dark:text-white">
+                Electrical and Computer Engineering and Computer Science
+              </span>
+              , graduating in May 2027. My work sits at the intersection of applied machine
+              learning and software systems engineering.
             </motion.p>
 
             <motion.dl
