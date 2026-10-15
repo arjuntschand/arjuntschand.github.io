@@ -41,9 +41,10 @@ export const EXPERIENCE: Experience[] = [
     logo: 'duke',
     stack: ['Python', 'PyTorch', 'NumPy', 'Pandas', 'Linux'],
     highlights: [
-      'Built PyTorch training pipelines applying distributionally robust optimization (GroupDRO) on heterogeneous multimodal datasets, improving worst-group accuracy by 15.0% on the NHANES cardiovascular disease dataset',
-      'Designed a representation-learning architecture with per-group encoders and a shared classifier, aligning latent spaces via Gaussian class anchors and 2-Wasserstein distance',
-      'Authored ETL, preprocessing, and experiment tooling supporting hyperparameter and architecture sweeps across UCI Heart Disease and MNIST/USPS, with up to +8.1% over ERM',
+      'Built PyTorch training pipelines applying distributionally robust optimization (GroupDRO) over excess loss, improving worst-group performance by targeting underserved groups over those inherently harder to predict',
+      'Designed a representation learning architecture with per-group encoders and a shared classifier for heterogeneous feature spaces, aligning latent spaces via Gaussian and Wasserstein distance to improve cross-group generalization',
+      'Evaluated on three tabular/imaging medical datasets (NHANES, Fed-Heart, EMBED), cutting worst-group loss up to 79% and excess loss up to 95% over published baselines with up to 18× fewer parameters',
+      'Co-first author on paper submitted to International Conference on Artificial Intelligence & Statistics (AISTATS)',
       'Presented research at Duke ECE poster sessions in Fall 2025 and Spring 2026',
     ],
     image: {

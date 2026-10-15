@@ -18,22 +18,24 @@ const SECTIONS = [
   {
     label: 'Optimization',
     body:
-      'A GroupDRO objective on top of the encoder–classifier stack focuses gradient updates on the worst-performing groups, trading average accuracy for robust, equitable performance across the distribution of groups.',
+      'A GroupDRO objective over excess loss on top of the encoder–classifier stack focuses gradient updates on underserved groups rather than those inherently harder to predict, improving worst-group performance without chasing irreducible error.',
   },
   {
     label: 'Impact',
     body:
-      'Anchors and GroupDRO are synergistic: neither helps much alone, but together they structure the latent space so GroupDRO can reweight effectively across heterogeneous groups. This extends prior personalized-federated approaches (Rakotomamonjy et al., 2023) to a centralized setting, validated on real medical datasets.',
+      'Anchors and GroupDRO are synergistic: neither helps much alone, but together they structure the latent space so GroupDRO can reweight effectively across heterogeneous groups. This extends prior personalized-federated approaches (Rakotomamonjy et al., 2023) to a centralized setting, validated on tabular and imaging medical datasets. Co-first-authored paper submitted to AISTATS.',
   },
 ];
 
 const RESULTS = [
-  { metric: '+15.0%', label: 'Worst-group accuracy on NHANES CVD' },
-  { metric: 'up to +8.1%', label: 'Over ERM on UCI Heart Disease & MNIST/USPS' },
+  { metric: 'up to 79%', label: 'Lower worst-group loss vs. published baselines' },
+  { metric: 'up to 95%', label: 'Lower excess loss vs. published baselines' },
+  { metric: 'up to 18×', label: 'Fewer parameters than published baselines' },
+  { metric: 'AISTATS', label: 'Co-first author, paper submitted' },
   { metric: '2×', label: 'Duke ECE poster sessions (Fall ’25, Spring ’26)' },
 ];
 
-const DATASETS = ['NHANES Cardiovascular Disease', 'UCI Heart Disease', 'MNIST / USPS'];
+const DATASETS = ['NHANES (tabular)', 'Fed-Heart (tabular)', 'EMBED (mammography imaging)'];
 
 export function Research() {
   return (
