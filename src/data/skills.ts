@@ -10,7 +10,7 @@ export const SKILLS: SkillGroup[] = [
   },
   {
     label: 'ML / Data',
-    items: ['PyTorch', 'TensorFlow', 'NumPy', 'Pandas', 'ChromaDB', 'LangGraph'],
+    items: ['PyTorch', 'TensorFlow', 'NumPy', 'Pandas', 'ChromaDB', 'LangGraph', 'Distributionally Robust Optimization', 'Representation Learning'],
   },
   {
     label: 'Backend / Systems',

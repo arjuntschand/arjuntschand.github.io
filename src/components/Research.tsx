@@ -44,7 +44,7 @@ export function Research() {
         <SectionHeading
           eyebrow="03 — Research"
           title="GroupDRO with heterogeneous feature spaces"
-          description="Distributionally robust learning across heterogeneous feature spaces. Joint work with Xenia Konti, advised by Prof. Michael Zavlanos at the Zavlanos Lab, Duke."
+          description="Distributionally robust learning across heterogeneous feature spaces. Co-first author with Xenia Konti, advised by Prof. Michael Zavlanos at the Zavlanos Lab, Duke."
         />
 
         {/* Lead block: poster photo + summary */}
