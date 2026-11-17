@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { BookOpen, Github, Linkedin, Mail } from 'lucide-react';
 import { SITE } from '../data/site';
 
 function DevpostIcon({ size = 16 }: { size?: number }) {
@@ -46,6 +46,15 @@ export function Footer() {
             className="transition-colors hover:text-ink-900 dark:hover:text-white"
           >
             <Linkedin size={16} />
+          </a>
+          <a
+            href={SITE.scholar}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Google Scholar"
+            className="transition-colors hover:text-ink-900 dark:hover:text-white"
+          >
+            <BookOpen size={16} />
           </a>
           <a
             href={SITE.devpost}

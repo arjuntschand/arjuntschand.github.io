@@ -6,7 +6,7 @@ export const SITE = {
   name: 'Arjun Tschand',
   role: 'Duke ECE + CS ’27',
   headline:
-    'ML, systems, and quant software engineering. Duke ECE + CS ’27.',
+    'ML research, applied ML, and systems. Duke ECE + CS ’27.',
   subheadline:
     'Two-time SWE intern at Bloomberg LP, data science and AI intern at SoFi, and ML researcher at the Zavlanos Lab.',
   location: 'Durham, NC',
@@ -16,6 +16,8 @@ export const SITE = {
   linkedin: 'https://www.linkedin.com/in/arjuntschand',
   devpost: 'https://devpost.com/arjuntschand',
   zavlanosLab: 'https://michaelmzavlanos.org/group',
+  scholar: 'https://scholar.google.com/citations?hl=en&user=omw8XzcAAAAJ',
+  paperArxiv: 'https://arxiv.org/abs/2611.10153',
   resumeUrl: RESUME_URL,
 } as const;
 

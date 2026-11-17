@@ -33,7 +33,6 @@ function ProjectCard({ p }: { p: Project }) {
         <div className="min-w-0">
           <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-accent-700 dark:text-accent-400">
             {CATEGORY_LABEL[p.category]}
-            {p.date && <span className="ml-2 text-ink-400 dark:text-ink-500">{p.date}</span>}
           </p>
           <h3 className="mt-1.5 text-lg font-semibold tracking-tight text-ink-900 dark:text-white">
             {p.title}
@@ -140,7 +139,7 @@ export function Projects() {
         <SectionHeading
           eyebrow="04 — Projects"
           title="Selected work"
-          description="A curated set of technical projects across quantitative software, ML research, and embedded systems."
+          description="A curated set of technical projects across ML research, quantitative software, and embedded systems."
         />
 
         <motion.div

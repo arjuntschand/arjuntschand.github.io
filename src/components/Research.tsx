@@ -23,7 +23,7 @@ const SECTIONS = [
   {
     label: 'Impact',
     body:
-      'Anchors and GroupDRO are synergistic: neither helps much alone, but together they structure the latent space so GroupDRO can reweight effectively across heterogeneous groups. This extends prior personalized-federated approaches (Rakotomamonjy et al., 2023) to a centralized setting, validated on tabular and imaging medical datasets. Co-first-authored paper submitted to AISTATS.',
+      'Anchors and GroupDRO are synergistic: neither helps much alone, but together they structure the latent space so GroupDRO can reweight effectively across heterogeneous groups. This extends prior personalized-federated approaches (Rakotomamonjy et al., 2023) to a centralized setting, validated on tabular and imaging medical datasets. Co-first-authored paper under review at AISTATS 2027.',
   },
 ];
 
@@ -31,7 +31,7 @@ const RESULTS = [
   { metric: 'up to 79%', label: 'Lower worst-group loss vs. published baselines' },
   { metric: 'up to 95%', label: 'Lower excess loss vs. published baselines' },
   { metric: 'up to 18×', label: 'Fewer parameters than published baselines' },
-  { metric: 'AISTATS', label: 'Co-first author, paper submitted' },
+  { metric: 'AISTATS 2027', label: 'Co-first author, paper under review' },
   { metric: '2×', label: 'Duke ECE poster sessions (Fall ’25, Spring ’26)' },
 ];
 
@@ -72,12 +72,12 @@ export function Research() {
               </figcaption>
             </figure>
             <a
-              href="/posters/groupdro-research-poster.pdf"
+              href={SITE.paperArxiv}
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-md border border-ink-200 bg-white px-4 py-2.5 text-sm font-medium text-ink-900 transition-all hover:border-ink-300 hover:bg-ink-50 dark:border-ink-700 dark:bg-ink-800 dark:text-white dark:hover:bg-ink-700"
             >
-              <FileText size={14} /> View research poster (PDF)
+              <FileText size={14} /> Read the paper (arXiv)
               <ArrowUpRight
                 size={14}
                 className="text-accent-600 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 dark:text-accent-400"

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Github, GraduationCap, Linkedin, Mail } from 'lucide-react';
+import { ArrowUpRight, BookOpen, Github, GraduationCap, Linkedin, Mail } from 'lucide-react';
 import { SITE } from '../data/site';
 import { fadeUp, stagger } from '../lib/motion';
 import { SectionHeading } from './SectionHeading';
@@ -53,6 +53,14 @@ export function Contact() {
               className="inline-flex items-center gap-1.5 transition-colors hover:text-ink-900 dark:hover:text-white"
             >
               <Linkedin size={14} /> linkedin.com/in/arjuntschand
+            </a>
+            <a
+              href={SITE.scholar}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 transition-colors hover:text-ink-900 dark:hover:text-white"
+            >
+              <BookOpen size={14} /> Google Scholar
             </a>
             <a
               href={`mailto:${SITE.emailAcademic}`}
