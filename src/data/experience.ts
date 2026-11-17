@@ -42,7 +42,7 @@ export const EXPERIENCE: Experience[] = [
     stack: ['Python', 'PyTorch', 'NumPy', 'Pandas', 'Linux'],
     highlights: [
       'Built PyTorch training pipelines applying distributionally robust optimization (GroupDRO) over excess loss, improving worst-group performance by targeting underserved groups over those inherently harder to predict',
-      'Designed a representation learning architecture with per-group encoders and a shared classifier for heterogeneous feature spaces, aligning latent spaces via Gaussian and Wasserstein distance to improve cross-group generalization',
+      'Designed a representation learning architecture with per-group encoders and a shared classifier for heterogeneous feature spaces, aligning latent spaces using a Wasserstein loss to cluster classes around learnable Gaussian anchors',
       'Evaluated on three tabular/imaging medical datasets (NHANES, Fed-Heart, EMBED), cutting worst-group loss up to 79% and excess loss up to 95% over published baselines with up to 18× fewer parameters',
       'Co-first author on paper under review at International Conference on Artificial Intelligence & Statistics (AISTATS 2027)',
       'Presented research at Duke ECE poster sessions in Fall 2025 and Spring 2026',
