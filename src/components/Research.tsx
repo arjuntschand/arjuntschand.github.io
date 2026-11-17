@@ -47,46 +47,51 @@ export function Research() {
           description="Distributionally robust learning across heterogeneous feature spaces. Co-first author with Xenia Konti, advised by Prof. Michael Zavlanos at the Zavlanos Lab, Duke."
         />
 
-        {/* Lead block: poster photo + summary */}
+        {/* Lead block: model figure from the paper */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: '-10% 0px' }}
+          className="flex flex-col gap-3"
+        >
+          <figure className="overflow-hidden rounded-xl border border-ink-200 bg-white shadow-sm dark:border-ink-700">
+            <a href={SITE.paperArxiv} target="_blank" rel="noopener noreferrer">
+              <img
+                src="/images/paper-model-overview.jpg"
+                alt="Model overview: per-group encoders map heterogeneous feature spaces into a shared latent space organized by Gaussian class anchors, followed by a single shared head"
+                loading="lazy"
+                decoding="async"
+                className="h-auto w-full p-4 sm:p-6"
+              />
+            </a>
+            <figcaption className="border-t border-ink-200 px-4 py-2 text-center font-mono text-[11px] uppercase tracking-[0.16em] text-ink-500">
+              Model overview · Learning Across Heterogeneous Feature Spaces with Group Robustness
+            </figcaption>
+          </figure>
+          <a
+            href={SITE.paperArxiv}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center justify-center gap-2 self-start rounded-md border border-ink-200 bg-white px-4 py-2.5 text-sm font-medium text-ink-900 transition-all hover:border-ink-300 hover:bg-ink-50 dark:border-ink-700 dark:bg-ink-800 dark:text-white dark:hover:bg-ink-700"
+          >
+            <FileText size={14} /> Read the paper (arXiv)
+            <ArrowUpRight
+              size={14}
+              className="text-accent-600 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 dark:text-accent-400"
+            />
+          </a>
+        </motion.div>
+
         <motion.div
           variants={stagger(0.06)}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-10% 0px' }}
-          className="grid gap-8 lg:grid-cols-5 lg:gap-10"
+          className="mt-8 grid gap-5 lg:grid-cols-5"
         >
-          <motion.div
-            variants={fadeUp}
-            className="flex flex-col gap-3 lg:col-span-2"
-          >
-            <figure className="overflow-hidden rounded-xl border border-ink-200 bg-white shadow-sm dark:border-ink-700 dark:bg-ink-900/60">
-              <img
-                src="/images/research-poster-2026.jpg"
-                alt="GroupDRO with Heterogeneous Feature Spaces research poster, Duke ECE Spring 2026"
-                loading="lazy"
-                decoding="async"
-                className="h-auto w-full object-cover"
-              />
-              <figcaption className="border-t border-ink-200 px-4 py-2 text-center font-mono text-[11px] uppercase tracking-[0.16em] text-ink-500 dark:border-ink-700 dark:text-ink-400">
-                Duke ECE Poster Session · Spring 2026
-              </figcaption>
-            </figure>
-            <a
-              href={SITE.paperArxiv}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center justify-center gap-2 rounded-md border border-ink-200 bg-white px-4 py-2.5 text-sm font-medium text-ink-900 transition-all hover:border-ink-300 hover:bg-ink-50 dark:border-ink-700 dark:bg-ink-800 dark:text-white dark:hover:bg-ink-700"
-            >
-              <FileText size={14} /> Read the paper (arXiv)
-              <ArrowUpRight
-                size={14}
-                className="text-accent-600 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 dark:text-accent-400"
-              />
-            </a>
-          </motion.div>
-
-          <motion.div variants={fadeUp} className="flex flex-col gap-5 lg:col-span-3">
-            <div className="rounded-xl border border-ink-200 bg-white p-5 dark:border-ink-700 dark:bg-ink-900/60">
+          <motion.div variants={fadeUp} className="lg:col-span-3">
+            <div className="h-full rounded-xl border border-ink-200 bg-white p-5 dark:border-ink-700 dark:bg-ink-900/60">
               <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-ink-500 dark:text-ink-400">
                 Results
               </p>
@@ -102,7 +107,9 @@ export function Research() {
               </ul>
             </div>
 
-            <div className="grid gap-5 sm:grid-cols-2">
+          </motion.div>
+          <motion.div variants={fadeUp} className="lg:col-span-2">
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
               <div className="rounded-xl border border-ink-200 bg-white p-5 dark:border-ink-700 dark:bg-ink-900/60">
                 <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-ink-500 dark:text-ink-400">
                   Datasets
