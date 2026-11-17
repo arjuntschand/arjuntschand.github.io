@@ -47,38 +47,36 @@ export function Research() {
           description="Distributionally robust learning across heterogeneous feature spaces. Co-first author with Xenia Konti, advised by Prof. Michael Zavlanos at the Zavlanos Lab, Duke."
         />
 
-        {/* Lead block: model figure from the paper */}
+        {/* Lead block: paper card */}
         <motion.div
           variants={fadeUp}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-10% 0px' }}
-          className="flex flex-col gap-3"
+          className="flex flex-col gap-5 rounded-xl border border-ink-200 bg-white p-6 shadow-sm dark:border-ink-700 dark:bg-ink-900/60 sm:flex-row sm:items-center sm:justify-between sm:p-8"
         >
-          <figure className="overflow-hidden rounded-xl border border-ink-200 bg-white shadow-sm dark:border-ink-700">
-            <a href={SITE.paperArxiv} target="_blank" rel="noopener noreferrer">
-              <img
-                src="/images/paper-model-overview.jpg"
-                alt="Model overview: per-group encoders map heterogeneous feature spaces into a shared latent space organized by Gaussian class anchors, followed by a single shared head"
-                loading="lazy"
-                decoding="async"
-                className="h-auto w-full p-4 sm:p-6"
-              />
-            </a>
-            <figcaption className="border-t border-ink-200 px-4 py-2 text-center font-mono text-[11px] uppercase tracking-[0.16em] text-ink-500">
-              Model overview · Learning Across Heterogeneous Feature Spaces with Group Robustness
-            </figcaption>
-          </figure>
+          <div className="min-w-0">
+            <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-accent-700 dark:text-accent-400">
+              Paper · AISTATS 2027 (under review)
+            </p>
+            <h3 className="mt-2 text-xl font-semibold tracking-tight text-ink-900 dark:text-white sm:text-2xl">
+              Learning Across Heterogeneous Feature Spaces with Group Robustness
+            </h3>
+            <p className="mt-2 text-sm text-ink-600 dark:text-ink-300">
+              Xenia Konti*, <span className="font-medium text-ink-900 dark:text-white">Arjun Tschand*</span>, Chuan Hong, Nicoleta J. Economou-Zavlanos, Michael M. Zavlanos
+            </p>
+            <p className="mt-1 text-xs text-ink-500 dark:text-ink-400">*Equal contribution</p>
+          </div>
           <a
             href={SITE.paperArxiv}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center justify-center gap-2 self-start rounded-md border border-ink-200 bg-white px-4 py-2.5 text-sm font-medium text-ink-900 transition-all hover:border-ink-300 hover:bg-ink-50 dark:border-ink-700 dark:bg-ink-800 dark:text-white dark:hover:bg-ink-700"
+            className="group inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-ink-900 px-6 py-3.5 text-base font-medium text-white shadow-sm transition-all hover:bg-ink-800 hover:shadow-md dark:bg-white dark:text-ink-900 dark:hover:bg-ink-100"
           >
-            <FileText size={14} /> Read the paper (arXiv)
+            <FileText size={18} /> Read the paper on arXiv
             <ArrowUpRight
-              size={14}
-              className="text-accent-600 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 dark:text-accent-400"
+              size={16}
+              className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
             />
           </a>
         </motion.div>
