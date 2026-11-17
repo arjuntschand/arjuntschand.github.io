@@ -43,7 +43,7 @@ export function Research() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="03 — Research"
-          title="Group-robust learning across heterogeneous feature spaces"
+          title="GroupDRO with heterogeneous feature spaces"
           description="Distributionally robust learning across heterogeneous feature spaces. Co-first author with Xenia Konti, advised by Prof. Michael Zavlanos at the Zavlanos Lab, Duke."
         />
 
