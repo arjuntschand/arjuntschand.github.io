@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, BookOpen, FileText, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, FileText, Github, Linkedin, Mail } from 'lucide-react';
 import { SITE } from '../data/site';
+import { ScholarIcon } from './ScholarIcon';
 import { fadeUp, stagger } from '../lib/motion';
 
 export function Hero() {
@@ -99,7 +100,7 @@ export function Hero() {
               aria-label="Google Scholar"
               className="grid h-10 w-10 place-items-center rounded-md border border-ink-200 bg-white text-ink-700 transition-all hover:border-ink-300 hover:bg-ink-50 dark:border-ink-700 dark:bg-ink-800 dark:text-ink-200 dark:hover:bg-ink-700"
             >
-              <BookOpen size={16} />
+              <ScholarIcon size={16} />
             </a>
           </motion.div>
 

@@ -1,5 +1,6 @@
-import { BookOpen, Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { SITE } from '../data/site';
+import { ScholarIcon } from './ScholarIcon';
 
 function DevpostIcon({ size = 16 }: { size?: number }) {
   return (
@@ -54,7 +55,7 @@ export function Footer() {
             aria-label="Google Scholar"
             className="transition-colors hover:text-ink-900 dark:hover:text-white"
           >
-            <BookOpen size={16} />
+            <ScholarIcon size={16} />
           </a>
           <a
             href={SITE.devpost}

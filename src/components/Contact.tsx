@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import { ArrowUpRight, BookOpen, Github, GraduationCap, Linkedin, Mail } from 'lucide-react';
+import { ArrowUpRight, Github, GraduationCap, Linkedin, Mail } from 'lucide-react';
 import { SITE } from '../data/site';
+import { ScholarIcon } from './ScholarIcon';
 import { fadeUp, stagger } from '../lib/motion';
 import { SectionHeading } from './SectionHeading';
 
@@ -60,7 +61,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 transition-colors hover:text-ink-900 dark:hover:text-white"
             >
-              <BookOpen size={14} /> Google Scholar
+              <ScholarIcon size={14} /> Google Scholar
             </a>
             <a
               href={`mailto:${SITE.emailAcademic}`}
