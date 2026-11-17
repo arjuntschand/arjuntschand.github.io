@@ -36,7 +36,7 @@ export function Hero() {
             className="text-4xl font-semibold leading-[1.05] tracking-tight text-ink-900 dark:text-white sm:text-6xl lg:text-7xl"
           >
             Arjun Tschand.
-            <span className="block bg-gradient-to-r from-accent-500 to-sky-500 bg-clip-text text-transparent opacity-80 dark:opacity-90">
+            <span className="block pb-[0.12em] bg-gradient-to-r from-accent-500 to-sky-500 bg-clip-text text-transparent opacity-80 dark:opacity-90">
               ML research, applied ML, and systems.
             </span>
           </motion.h1>
